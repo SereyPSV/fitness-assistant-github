@@ -11,6 +11,7 @@ import { Report } from "../pages/report";
 import { Reports } from "../pages/reports";
 import { Signup } from "../pages/signup";
 import { Trainer } from "../pages/trainer";
+import { Login } from "../pages/login";
 
 export const routes = () => [
   {
@@ -19,7 +20,7 @@ export const routes = () => [
   },
   {
     path: "login",
-    element: <Main />,
+    element: <Login />,
   },
   {
     path: "signup",

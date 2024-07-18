@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "@mantine/core/styles.css";
-import "../style/index.css";
+import "../style/index.scss";
 import { App } from "./app";
 import { BrowserRouter } from "react-router-dom";
 import { MantineProvider } from "@mantine/core";
